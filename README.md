@@ -23,11 +23,27 @@ npm i
 
 ### Run sample test:
   - Test script is available in `run-sample-test` directory under examples folder
+
+## Configure Environment Variables
+  -  Configure BrowserStack username and accesskey them as environment variables using the below commands.
+  
+  - For \*nix based and Mac machines:
+
+  ```sh
+  export BROWSERSTACK_USERNAME=<browserstack-username> &&
+  export BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
+  ```
+
+  - For Windows:
+
+  ```shell
+  set BROWSERSTACK_USERNAME=<browserstack-username>
+  set BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
+  ```
+
 ## Ensure the device id is accurate
   -   The device config is available in this path examples/run-sample-test/test.conf.js
   -   Make sure the deviceId field in the `commonCapabilities` section is accurate
 
 ## Running your tests
 - To run tests, run `npm run test`
-
- Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
