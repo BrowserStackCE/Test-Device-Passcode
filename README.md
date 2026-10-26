@@ -2,7 +2,7 @@
 This repository is to test if the device passcode is wrokign as expected on the dedicated device on BrowserStack App Automate
 
 <div align="center">
-<img src = "https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" > <br>
+<img src = "https://www.browserstack.com/images/static/header-logo.jpg" > <br>
 <img src = "https://webdriver.io/img/webdriverio.png"  height="140px">
 </div>
 
